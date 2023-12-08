@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Talks and presentations"
+title: "Talks and Presentations"
 permalink: /talks/
 author_profile: true
 ---
@@ -11,6 +11,23 @@ author_profile: true
 
 {% endif %}
 
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
-{% endfor %}
+<h2>Tutorials</h2>
+<ul>{% for post in site.talks reversed %}
+  {% if post.type == 'tutorial' %}
+    <li>{% include archive-single-talk-simon.html %}</li>
+  {% endif %}
+{% endfor %}</ul>
+
+<h2>Conference Presentations</h2>
+<ul>{% for post in site.publications reversed %}
+  {% if post.type == 'conference' and post.slidesurl %}
+    <li>{% include archive-single-talk-simon.html %}</li>
+  {% endif %}
+{% endfor %}</ul>
+
+<h2>Conference Posters</h2>
+<ul>{% for post in site.publications reversed %}
+  {% if post.type == 'conference' and post.posterurl %}
+    <li>{% include archive-single-talk-simon.html %}</li>
+  {% endif %}
+{% endfor %}</ul>

@@ -1,0 +1,42 @@
+{% include base_path %}
+
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <p>
+      {% if post.type == 'tutorial' %}
+        {% if post.title %}{{ post.title }}.{% endif %}
+        {% if post.authors %}{{ post.authors }}.{% endif %}
+        {% if post.booktitle %}In <i>{{ post.booktitle }}</i>.{% endif %}
+        {% if post.date %}{{ post.date | date: '%B %d, %Y' }}.{% endif %}
+        {% if post.location %}{{ post.location }}.{% endif %}
+        {% if post.slidesurl %}[<a href="{{ post.slidesurl }}">Slides</a>]{% endif %}
+      {% elsif post.type == 'conference' and post.slidesurl %}
+        {% if post.title %}{{ post.title }}.{% endif %}
+        {% if post.authors %}{{ post.authors }}.{% endif %}
+        {% if post.booktitle %}In <i>{{ post.booktitle }}</i>.{% endif %}
+        {% if post.date %}{{ post.date | date: '%B %d, %Y' }}.{% endif %}
+        {% if post.location %}{{ post.location }}.{% endif %}
+        [<a href="{{ post.slidesurl }}">Slides</a>]
+      {% elsif post.type == 'conference' and post.posterurl %}
+        {% if post.title %}{{ post.title }}.{% endif %}
+        {% if post.authors %}{{ post.authors }}.{% endif %}
+        {% if post.booktitle %}In <i>{{ post.booktitle }}</i>.{% endif %}
+        {% if post.date %}{{ post.date | date: '%B %d, %Y' }}.{% endif %}
+        {% if post.location %}{{ post.location }}.{% endif %}
+        [<a href="{{ post.posterurl }}">Poster</a>]
+      {% endif %}
+    </p>
+  </article>
+</div>
