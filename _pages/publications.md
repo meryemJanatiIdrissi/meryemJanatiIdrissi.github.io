@@ -8,5 +8,5 @@ author_profile: true
 {% include base_path %}
 
 <ul>{% for post in site.publications reversed %}
-  <li>{% include archive-single-simon.html %}</li>
+  <li>{% include archive-single-janati.html %}</li>
 {% endfor %}</ul>
