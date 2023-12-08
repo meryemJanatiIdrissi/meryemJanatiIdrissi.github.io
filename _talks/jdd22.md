@@ -7,5 +7,5 @@ permalink: /talks/jdd22
 date: 2022-10-10
 location: "Ben-Guerir"
 venue: 'Mohamed 6 Polytechnic University Journée Des Doctorants (JDD22)'
-slidesurl: 'http://janati.github.io/files/jdd22-slides.pdf'
+slidesurl: 'http://meryemJanatiIdrissi.github.io/files/jdd22-slides.pdf'
 ---

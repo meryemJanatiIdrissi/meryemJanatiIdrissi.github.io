@@ -8,8 +8,8 @@ permalink: /publication/nfnids
 date: 2023-10-28
 year: 2023
 pages: 'TBD'
-paperurl: 'http://janati.github.io/files/nfnids.pdf'
-slidesurl: 'http://janati.github.io/files/nfnids-slides.pdf'
+paperurl: 'http://meryemJanatiIdrissi.github.io/files/nfnids.pdf'
+slidesurl: 'http://meryemJanatiIdrissi.github.io/files/nfnids-slides.pdf'
 ---
 
-[Download paper here](http://janati.github.io/files/nfnids.pdf)
+[Download paper here](http://meryemJanatiIdrissi.github.io/files/nfnids.pdf)

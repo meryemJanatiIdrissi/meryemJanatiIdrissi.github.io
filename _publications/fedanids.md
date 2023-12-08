@@ -8,7 +8,7 @@ permalink: /publication/fedanids
 date: 2023-07-28
 year: 2023
 pages: '0957-4174'
-paperurl: 'http://janati.github.io/files/fedanids.pdf'
+paperurl: 'http://meryemJanatiIdrissi.github.io/files/fedanids.pdf'
 ---
 
-[Download paper here](http://janati.github.io/files/fedanids.pdf)
+[Download paper here](http://meryemJanatiIdrissi.github.io/files/fedanids.pdf)

@@ -8,7 +8,7 @@ permalink: /publication/domaineAdapt
 date: 2023-10-28
 year: 2023
 pages: 'TBD'
-paperurl: 'http://janati.github.io/files/domaineAdapt.pdf'
+paperurl: 'http://meryemJanatiIdrissi.github.io/files/domaineAdapt.pdf'
 ---
 
-[Download paper here](http://janati.github.io/files/domaineAdapt.pdf)
+[Download paper here](http://meryemJanatiIdrissi.github.io/files/domaineAdapt.pdf)

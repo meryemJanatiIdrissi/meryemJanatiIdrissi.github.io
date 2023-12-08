@@ -8,8 +8,8 @@ permalink: /publication/fedbs
 date: 2021-11-01
 year: 2021
 pages: '861-867'
-paperurl: 'http://janati.github.io/files/fedbs.pdf'
-slidesurl: 'http://janati.github.io/files/fedbs-slides.pdf'
+paperurl: 'http://meryemJanatiIdrissi.github.io/files/fedbs.pdf'
+slidesurl: 'http://meryemJanatiIdrissi.github.io/files/fedbs-slides.pdf'
 ---
 
-[Download paper here](http://janati.github.io/files/fedbs.pdf)
+[Download paper here](http://meryemJanatiIdrissi.github.io/files/fedbs.pdf)

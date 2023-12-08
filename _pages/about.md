@@ -15,4 +15,4 @@ I am primarily interested in *intrusion detection* applied into the field of *di
 with an emphasis on *federated learning* specifically *network intrusion detection systems*. 
 The goal of my work is to bridge the gap between the two domains as well as enhance federated learning algorithms.
 
-Check out my [CV](http://janati.github.io/files/CV.pdf) for more details about me!
+Check out my [CV](http://meryemJanatiIdrissi.github.io/files/CV.pdf) for more details about me!
