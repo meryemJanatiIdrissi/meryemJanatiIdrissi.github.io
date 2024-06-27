@@ -14,5 +14,3 @@ Before joining UM6P, I got my M.Sc degree in Big Data Analytics and Smart System
 I am primarily interested in *intrusion detection* applied into the field of *distributed systems*, 
 with an emphasis on *federated learning* specifically *network intrusion detection systems*. 
 The goal of my work is to bridge the gap between the two domains as well as enhance federated learning algorithms.
-
-Check out my [CV](http://meryemJanatiIdrissi.github.io/files/CV.pdf) for more details about me!
