@@ -1,5 +1,5 @@
 ---
-title: 'Fed-ANIDS: Federated learning for anomaly-based network intrusion detection systems'
+title: 'Lightweight-Fed-NIDS: A Lightweight Federated Learning Framework for Enhanced Network Intrusion Detection System'
 authors: 'Abdelhak Bouayad, Hamza Alami, <strong>Meryem Janati Idrissi</strong> and Ismail Berrada'
 type: 'journal'
 journal: 'IEEE Access'
@@ -9,7 +9,7 @@ date: 2023-11-08
 year: 2024
 pages: '1-1'
 volume: '2169-3536'
-#paperurl: 'http://meryemJanatiIdrissi.github.io/files/lightweight-fed-nids.pdf'
-paperurl: 'https://ieeexplore.ieee.org/abstract/document/10747349'
+paperurl: 'http://meryemJanatiIdrissi.github.io/files/Lightweight_FL.pdf'
 ---
 
+[Download paper here](http://meryemJanatiIdrissi.github.io/files/Lightweight_FL.pdf)
