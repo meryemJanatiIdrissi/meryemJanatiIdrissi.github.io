@@ -7,7 +7,7 @@ collection: publications
 permalink: /publication/thesis
 date: 2024-05-16
 year: 2024
-paperurl: '/files/dissertation.pdf'
+paperurl: '/files/Dissertation.pdf'
 ---
 
-[Download thesis here](http://meryemJanatiIdrissi.github.io/files/dissertation.pdf)
+[Download thesis here](http://meryemJanatiIdrissi.github.io/files/Dissertation.pdf)
